@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="DoktorGirisi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="k_adi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sifre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DoktorGirisiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DoktorGirisiResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DoktorAdiniGetir">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="k_adi" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DoktorAdiniGetirResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DoktorAdiniGetirResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HastaIsim">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="doktor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="randevu_tarihi" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HastaIsimResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HastaIsimResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EeczaneGirisi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tc_kimlik" type="xs:int" />
+        <xs:element minOccurs="0" name="kod" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EeczaneGirisiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EeczaneGirisiResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RandevuSilme">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tc_k" type="xs:int" />
+        <xs:element minOccurs="0" name="kod_k" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RandevuSilmeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RandevuSilmeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HastaBilgileri">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tc_k" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HastaBilgileriResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HastaBilgileriResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BolumListesi">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BolumListesiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BolumListesiResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DoktorListesi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bolumu" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DoktorListesiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DoktorListesiResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BolumYazdirma">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="adisoyadi" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BolumYazdirmaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BolumYazdirmaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SikayetYazdirma">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="adisoyadi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doktor" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SikayetYazdirmaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SikayetYazdirmaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HastaTc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="adisoyadi" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HastaTcResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HastaTcResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RandevuAl">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tc_kimlik" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="adsoyad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="bolum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doktor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="randevu_tarihi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="randevu_saati" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sikayet" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RandevuAlResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RandevuAlResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IlacKaydi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tc_kimlik" type="xs:int" />
+        <xs:element minOccurs="0" name="adisoyadi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doktoradi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="bolum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sikayet" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tani" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="k_ilaclar" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IlacKaydiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IlacKaydiResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

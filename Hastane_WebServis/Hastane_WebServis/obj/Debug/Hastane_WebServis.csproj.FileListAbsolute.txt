@@ -1,0 +1,12 @@
+C:\Users\pc1\Desktop\Hastane_WebServis\Hastane_WebServis\bin\Debug\Hastane_WebServis.exe.config
+C:\Users\pc1\Desktop\Hastane_WebServis\Hastane_WebServis\bin\Debug\Hastane_WebServis.exe
+C:\Users\pc1\Desktop\Hastane_WebServis\Hastane_WebServis\bin\Debug\Hastane_WebServis.pdb
+C:\Users\pc1\Desktop\Hastane_WebServis\Hastane_WebServis\obj\Debug\Hastane_WebServis.csprojResolveAssemblyReference.cache
+C:\Users\pc1\Desktop\Hastane_WebServis\Hastane_WebServis\obj\Debug\Hastane_WebServis.exe
+C:\Users\pc1\Desktop\Hastane_WebServis\Hastane_WebServis\obj\Debug\Hastane_WebServis.pdb
+C:\Users\pc1\Desktop\proje eski\Hastane_WebServis\Hastane_WebServis\bin\Debug\Hastane_WebServis.exe.config
+C:\Users\pc1\Desktop\proje eski\Hastane_WebServis\Hastane_WebServis\obj\Debug\Hastane_WebServis.exe
+C:\Users\pc1\Desktop\proje eski\Hastane_WebServis\Hastane_WebServis\obj\Debug\Hastane_WebServis.pdb
+C:\Users\pc1\Desktop\proje eski\Hastane_WebServis\Hastane_WebServis\obj\Debug\Hastane_WebServis.csprojResolveAssemblyReference.cache
+C:\Users\pc1\Desktop\proje eski\Hastane_WebServis\Hastane_WebServis\bin\Debug\Hastane_WebServis.exe
+C:\Users\pc1\Desktop\proje eski\Hastane_WebServis\Hastane_WebServis\bin\Debug\Hastane_WebServis.pdb

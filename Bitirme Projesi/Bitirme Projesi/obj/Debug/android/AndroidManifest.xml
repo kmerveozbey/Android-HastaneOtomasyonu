@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Bitirme_Projesi.Bitirme_Projesi" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="Bitirme_Projesi" android:configChanges="orientation" android:screenOrientation="portrait" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:name=".randevu_al" android:configChanges="orientation" android:screenOrientation="portrait" />
+    <activity android:name=".randevu_sil" android:configChanges="orientation" android:screenOrientation="portrait" />
+    <activity android:name=".doktor_girisi" android:configChanges="orientation" android:screenOrientation="portrait" />
+    <activity android:name=".eeczane" android:configChanges="orientation" android:screenOrientation="portrait" />
+    <activity android:label="Doktor Girişi" android:screenOrientation="portrait" android:name="md5dc7b8dea9f17eaaf33127c4c5c68c022.Doktor_Girisi" />
+    <activity android:label="E-Eczane" android:screenOrientation="portrait" android:name="md5dc7b8dea9f17eaaf33127c4c5c68c022.eeczane" />
+    <activity android:label="hasta" android:name="md5dc7b8dea9f17eaaf33127c4c5c68c022.hasta" />
+    <activity android:label="Hasta Listesi" android:screenOrientation="portrait" android:name="md5dc7b8dea9f17eaaf33127c4c5c68c022.hasta_listesi" />
+    <activity android:label="İlaç Listesi" android:screenOrientation="portrait" android:name="md5dc7b8dea9f17eaaf33127c4c5c68c022.ilac_listesi" />
+    <activity android:label="Tarih Seçimi" android:name="md5dc7b8dea9f17eaaf33127c4c5c68c022.ilkgiris" />
+    <activity android:icon="@drawable/icon" android:label="Özbey Hastanesi" android:screenOrientation="portrait" android:name="md5dc7b8dea9f17eaaf33127c4c5c68c022.randevu_al">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Randevu İptal" android:screenOrientation="portrait" android:name="md5dc7b8dea9f17eaaf33127c4c5c68c022.randevu_sil" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Bitirme_Projesi.Bitirme_Projesi.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Bitirme_Projesi.Bitirme_Projesi" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

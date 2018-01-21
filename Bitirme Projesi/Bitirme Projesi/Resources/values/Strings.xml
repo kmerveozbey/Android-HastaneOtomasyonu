@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">Bitirme Projesi</string>
+  <string name="tc">TC Kimlik No:</string>
+  <string name="ad">Adınız-Soyadınız:</string>
+  <string name="blm">Bölümünüz:</string>
+  <string name="tarih">Randevu Tarihi:</string>
+  <string name="saat">Randevu Saati:</string>
+  <string name="doktor">Doktor Adı:</string>
+  <string name="sikayet">Şikayetiniz: </string>
+</resources>

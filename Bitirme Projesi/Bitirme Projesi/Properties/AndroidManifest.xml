@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Bitirme_Projesi.Bitirme_Projesi" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:label="Bitirme_Projesi" android:configChanges="orientation" android:screenOrientation="portrait">
+		<activity android:name=".randevu_al" android:configChanges="orientation" android:screenOrientation="portrait" />
+		<activity android:name=".randevu_sil" android:configChanges="orientation" android:screenOrientation="portrait" />
+		<activity android:name=".doktor_girisi" android:configChanges="orientation" android:screenOrientation="portrait" />
+		<activity android:name=".eeczane" android:configChanges="orientation" android:screenOrientation="portrait" />
+	</application>
+</manifest>

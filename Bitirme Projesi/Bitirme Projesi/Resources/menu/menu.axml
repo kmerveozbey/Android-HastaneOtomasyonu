@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:id="@+id/doktor_girisi"
+      android:title="Doktor Girişi" >
+  </item>
+
+  <item android:id="@+id/randevu_al"
+      android:title="Randevu Al" >
+  </item>
+
+  <item android:id="@+id/randevu_iptal"
+      android:title="Randevu İptal" >
+  </item>
+
+  <item android:id="@+id/eeczane"
+      android:title="E-Eczane" >
+  </item>
+
+</menu>

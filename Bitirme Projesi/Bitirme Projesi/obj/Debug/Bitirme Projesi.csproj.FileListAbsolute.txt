@@ -1,0 +1,25 @@
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\bin\Debug\Bitirme Projesi.dll
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\bin\Debug\Bitirme Projesi.pdb
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\bin\Debug\Bitirme_Projesi.Bitirme_Projesi.apk
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\bin\Debug\Bitirme_Projesi.Bitirme_Projesi-Signed.apk
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\Bitirme Projesi.csprojResolveAssemblyReference.cache
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\Bitirme Projesi.dll
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\Bitirme Projesi.pdb
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\android\bin\Bitirme_Projesi.Bitirme_Projesi.apk
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\layout\randevu_sil.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\layout\doktor_girisi.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\layout\eeczane.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\menu\menu.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\layout\randevu_al.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\values\strings.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\drawable\icon.png
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\drawable\banner.jpg
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\drawable\b.jpg
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\R.cs.flag
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\uploadflags.txt
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\layout\hasta_listesi.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\layout\ilac_listesi.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\layout\hasta.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\res\layout\ilkgiris.xml
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\obj\Debug\Bitirme Projesi.dll.mdb
+C:\Users\pc1\Desktop\Bitirme Projesi\Bitirme Projesi\bin\Debug\Bitirme Projesi.dll.mdb

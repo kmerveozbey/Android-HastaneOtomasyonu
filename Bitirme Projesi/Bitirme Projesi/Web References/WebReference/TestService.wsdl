@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TestService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://192.168.1.16/service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://192.168.1.16/service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITestService_DoktorGirisi_InputMessage">
+    <wsdl:part name="parameters" element="tns:DoktorGirisi" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_DoktorGirisi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DoktorGirisiResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_DoktorAdiniGetir_InputMessage">
+    <wsdl:part name="parameters" element="tns:DoktorAdiniGetir" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_DoktorAdiniGetir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DoktorAdiniGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_HastaIsim_InputMessage">
+    <wsdl:part name="parameters" element="tns:HastaIsim" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_HastaIsim_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HastaIsimResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EeczaneGirisi_InputMessage">
+    <wsdl:part name="parameters" element="tns:EeczaneGirisi" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EeczaneGirisi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EeczaneGirisiResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_RandevuSilme_InputMessage">
+    <wsdl:part name="parameters" element="tns:RandevuSilme" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_RandevuSilme_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RandevuSilmeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_HastaBilgileri_InputMessage">
+    <wsdl:part name="parameters" element="tns:HastaBilgileri" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_HastaBilgileri_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HastaBilgileriResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_BolumListesi_InputMessage">
+    <wsdl:part name="parameters" element="tns:BolumListesi" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_BolumListesi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BolumListesiResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_DoktorListesi_InputMessage">
+    <wsdl:part name="parameters" element="tns:DoktorListesi" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_DoktorListesi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DoktorListesiResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_BolumYazdirma_InputMessage">
+    <wsdl:part name="parameters" element="tns:BolumYazdirma" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_BolumYazdirma_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BolumYazdirmaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_SikayetYazdirma_InputMessage">
+    <wsdl:part name="parameters" element="tns:SikayetYazdirma" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_SikayetYazdirma_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SikayetYazdirmaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_HastaTc_InputMessage">
+    <wsdl:part name="parameters" element="tns:HastaTc" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_HastaTc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HastaTcResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_RandevuAl_InputMessage">
+    <wsdl:part name="parameters" element="tns:RandevuAl" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_RandevuAl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RandevuAlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_IlacKaydi_InputMessage">
+    <wsdl:part name="parameters" element="tns:IlacKaydi" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_IlacKaydi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IlacKaydiResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITestService">
+    <wsdl:operation name="DoktorGirisi">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/DoktorGirisi" message="tns:ITestService_DoktorGirisi_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/DoktorGirisiResponse" message="tns:ITestService_DoktorGirisi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DoktorAdiniGetir">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/DoktorAdiniGetir" message="tns:ITestService_DoktorAdiniGetir_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/DoktorAdiniGetirResponse" message="tns:ITestService_DoktorAdiniGetir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HastaIsim">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/HastaIsim" message="tns:ITestService_HastaIsim_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/HastaIsimResponse" message="tns:ITestService_HastaIsim_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EeczaneGirisi">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/EeczaneGirisi" message="tns:ITestService_EeczaneGirisi_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/EeczaneGirisiResponse" message="tns:ITestService_EeczaneGirisi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RandevuSilme">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/RandevuSilme" message="tns:ITestService_RandevuSilme_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/RandevuSilmeResponse" message="tns:ITestService_RandevuSilme_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HastaBilgileri">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/HastaBilgileri" message="tns:ITestService_HastaBilgileri_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/HastaBilgileriResponse" message="tns:ITestService_HastaBilgileri_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BolumListesi">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/BolumListesi" message="tns:ITestService_BolumListesi_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/BolumListesiResponse" message="tns:ITestService_BolumListesi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DoktorListesi">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/DoktorListesi" message="tns:ITestService_DoktorListesi_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/DoktorListesiResponse" message="tns:ITestService_DoktorListesi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BolumYazdirma">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/BolumYazdirma" message="tns:ITestService_BolumYazdirma_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/BolumYazdirmaResponse" message="tns:ITestService_BolumYazdirma_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SikayetYazdirma">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/SikayetYazdirma" message="tns:ITestService_SikayetYazdirma_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/SikayetYazdirmaResponse" message="tns:ITestService_SikayetYazdirma_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HastaTc">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/HastaTc" message="tns:ITestService_HastaTc_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/HastaTcResponse" message="tns:ITestService_HastaTc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RandevuAl">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/RandevuAl" message="tns:ITestService_RandevuAl_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/RandevuAlResponse" message="tns:ITestService_RandevuAl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IlacKaydi">
+      <wsdl:input wsam:Action="http://tempuri.org/ITestService/IlacKaydi" message="tns:ITestService_IlacKaydi_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/ITestService/IlacKaydiResponse" message="tns:ITestService_IlacKaydi_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITestService" type="tns:ITestService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoktorGirisi">
+      <soap:operation soapAction="http://tempuri.org/ITestService/DoktorGirisi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoktorAdiniGetir">
+      <soap:operation soapAction="http://tempuri.org/ITestService/DoktorAdiniGetir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HastaIsim">
+      <soap:operation soapAction="http://tempuri.org/ITestService/HastaIsim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EeczaneGirisi">
+      <soap:operation soapAction="http://tempuri.org/ITestService/EeczaneGirisi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RandevuSilme">
+      <soap:operation soapAction="http://tempuri.org/ITestService/RandevuSilme" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HastaBilgileri">
+      <soap:operation soapAction="http://tempuri.org/ITestService/HastaBilgileri" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BolumListesi">
+      <soap:operation soapAction="http://tempuri.org/ITestService/BolumListesi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoktorListesi">
+      <soap:operation soapAction="http://tempuri.org/ITestService/DoktorListesi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BolumYazdirma">
+      <soap:operation soapAction="http://tempuri.org/ITestService/BolumYazdirma" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SikayetYazdirma">
+      <soap:operation soapAction="http://tempuri.org/ITestService/SikayetYazdirma" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HastaTc">
+      <soap:operation soapAction="http://tempuri.org/ITestService/HastaTc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RandevuAl">
+      <soap:operation soapAction="http://tempuri.org/ITestService/RandevuAl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IlacKaydi">
+      <soap:operation soapAction="http://tempuri.org/ITestService/IlacKaydi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TestService">
+    <wsdl:port name="BasicHttpBinding_ITestService" binding="tns:BasicHttpBinding_ITestService">
+      <soap:address location="http://192.168.1.16/service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
